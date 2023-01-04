@@ -119,6 +119,7 @@ main {
 .skill-container {
   display: flex;
   gap: 24px;
+  margin-bottom: 130px;
 }
 .skill-section-description {
   color: #757575;
@@ -140,4 +141,43 @@ main {
 }
 .skill-description {
   color: #757575;
+}
+
+/* resume section style  */
+.resume-container {
+  display: flex;
+  margin-top: 120px;
+  gap: 24px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+}
+.resume-items {
+}
+.title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin-top: 30px;
+}
+.resume-sub-title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #757575;
+}
+.resume-description {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #757575;
+}
+.resume-btn {
+  margin: 50px;
+  text-align: center;
 }
