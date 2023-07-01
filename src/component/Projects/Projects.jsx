@@ -3,34 +3,34 @@ import SingleProject from "./SingleProject";
 const Projects = () => {
   const project = [
     {
-      name: "Tarulota website",
+      name: "CampSportz",
       technology: ["React", "Tailwind"],
       desiccation:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis accusamus, inventore repellat officiis pariatur vel cupiditate odio minus possimus sapiente, nesciunt illo quam numquam voluptate eveniet alias exercitationem nemo deleniti unde quis ex culpa. Est fugit perferendis praesentium minima ducimus exercitationem consectetur. Soluta, sequi. Velit labore aut vitae ipsam?",
       clint_site_link: "dskljfkldsjfjdsk",
       live_site_link: "sjdfkjlkds",
       server_site_link: "jdskljfkl",
-      image_link: "https://i.ibb.co/ZJ2z0t0/Screenshot-2023-06-23-030018.jpg",
+      image_link: "https://i.ibb.co/rsg3T30/Screenshot-2023-06-27-233043.jpg",
     },
     {
-      name: "Tarulota website",
+      name: "ToyCarWorld",
       technology: ["React", "Tailwind", "Tailwind", "Tailwind"],
       desiccation:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis accusamus, inventore repellat officiis pariatur vel cupiditate odio minus possimus sapiente, nesciunt illo quam numquam voluptate eveniet alias exercitationem nemo deleniti unde quis ex culpa. Est fugit perferendis praesentium minima ducimus exercitationem consectetur. Soluta, sequi. Velit labore aut vitae ipsam?",
-      clint_site_link: "dskljfkldsjfjdsk",
-      live_site_link: "sjdfkjlkds",
-      server_site_link: "jdskljfkl",
-      image_link: "https://i.ibb.co/wsPptxw/Screenshot-2023-06-23-032428.jpg",
+      live_site_link: "https://toukir215.web.app/",
+      clint_site_link: "https://github.com/toukir15/toy-car-client",
+      server_site_link: "https://github.com/toukir15/toy-car-server",
+      image_link: "https://i.ibb.co/d5ZSjtf/Screenshot-2023-06-27-232420.jpg",
     },
     {
-      name: "Tarulota website",
+      name: "Recipe Avenue",
       technology: ["React", "Tailwind", "Tailwind", "Tailwind"],
       desiccation:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis accusamus, inventore repellat officiis pariatur vel cupiditate odio minus possimus sapiente, nesciunt illo quam numquam voluptate eveniet alias exercitationem nemo deleniti unde quis ex culpa. Est fugit perferendis praesentium minima ducimus exercitationem consectetur. Soluta, sequi. Velit labore aut vitae ipsam?",
-      clint_site_link: "dskljfkldsjfjdsk",
-      live_site_link: "sjdfkjlkds",
-      server_site_link: "jdskljfkl",
-      image_link: "https://i.ibb.co/wsPptxw/Screenshot-2023-06-23-032428.jpg",
+      live_site_link: " https://chef-project-251.web.app/",
+      clint_site_link: "https://github.com/toukir15/cher-recipe-client",
+      server_site_link: "https://github.com/toukir15/chef-recipe-server",
+      image_link: "https://i.ibb.co/p2mfHf5/Screenshot-2023-06-27-232532.jpg",
     },
   ];
 

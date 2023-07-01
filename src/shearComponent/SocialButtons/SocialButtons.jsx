@@ -8,13 +8,13 @@ const SocialButtons = () => {
         className="btn"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/tanvirahmed6174"
+        href="https://www.linkedin.com/in/toukir15/"
       >
         <FaLinkedinIn className="icon" />
       </a>
       <a
         className="btn"
-        href="https://www.facebook.com/tanvirahmed6147"
+        href="https://www.facebook.com/profile.php?id=100089076785532"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -22,7 +22,7 @@ const SocialButtons = () => {
       </a>
       <a
         className="btn"
-        href="https://github.com/tanvirgithub21"
+        href="https://github.com/toukir15"
         target="_blank"
         rel="noopener noreferrer"
       >

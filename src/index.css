@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -12,9 +12,35 @@ html {
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
+
+/* .before-style {
+  transition: all 0.5s ease;
+}
+
+.before-style::before {
+  content: "home";
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  color: transparent;
+  left: 0;
+  font-size: 16px;
+  background-color: transparent;
+  z-index: 10;
+  border-radius: 30px 0px 0px 30px;
+  padding: 8px 20px;
+  transition: all 0.5s ease;
+}
+.before-style:hover::before {
+  width: auto;
+  left: -155%;
+  color: white;
+
+  background-color: red;
+} */
 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {

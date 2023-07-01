@@ -28,9 +28,10 @@ const SingleProject = ({ info, side }) => {
         sideChecker ? "md:flex-row-reverse flex-col" : " md:flex-row flex-col"
       }`}
     >
+      {/* project info */}
       <div
         className="md:w-1/2 order-2 md:order-1"
-        data-aos={sideChecker ? "fade-right " : "fade-left"}
+        data-aos={`${sideChecker ? "fade-right " : "fade-left"}`}
       >
         <h2 className="text-2xl md:text-3xl font-semibold mt-4 md:mt-0">
           {name}
@@ -71,9 +72,10 @@ const SingleProject = ({ info, side }) => {
         </div>
       </div>
 
+      {/* project img  */}
       <div
         className="md:w-1/2 flex justify-center items-center"
-        data-aos={!sideChecker ? "fade-right" : " fade-left"}
+        data-aos={`${!sideChecker ? "fade-right" : " fade-left"}`}
       >
         <div className="max-w-[30rem] rounded-md overflow-hidden border">
           <img src={image_link} alt="project" />

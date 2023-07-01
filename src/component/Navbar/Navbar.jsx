@@ -9,12 +9,12 @@ const Navbar = () => {
   const handleNavToggle = () => setNavToggle(!navToggle);
 
   return (
-    <div className="text-primary-white mb-4 fixed top-0 w-full bg-[#0B1120] z-10">
+    <div className="text-primary-white mb-4 fixed top-0 w-full bg-[#0B1120] z-10 block md:hidden">
       <div className="flex justify-between items-center container mx-auto py-4 ">
         {/* logo  */}
         <div>
           <h3 className="text-lg md:text-2xl font-semibold ml-2 md:ml-0 text-white">
-            Tanvir-Ahmed
+            Toukir-Ahmed
           </h3>
         </div>
         {/* route */}

@@ -1,7 +1,12 @@
-import { FaReact, FaNode } from "react-icons/fa";
+import { FaReact, FaNode, FaBootstrap } from "react-icons/fa";
 import { SiExpress, SiMongodb } from "react-icons/si";
-import { BiLogoJavascript } from "react-icons/bi";
+import {
+  BiLogoCss3,
+  BiLogoJavascript,
+  BiLogoTailwindCss,
+} from "react-icons/bi";
 import { TbBrandRedux } from "react-icons/tb";
+import { AiFillHtml5 } from "react-icons/ai";
 
 const Skills = () => (
   <div id="skills" className="md:h-[calc(100vh_-_4rem)]">
@@ -13,6 +18,43 @@ const Skills = () => (
             data-aos="fade-right"
             className="grid gap-10 grid-cols-2 justify-evenly md:grid-cols-3 md:w-1/2 md:mr-10 pr-3 order-2 md:order-1 mt-10 md:mt-0"
           >
+            {/* html  */}
+            <div className="w-full">
+              <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
+                <div>
+                  <AiFillHtml5 className="text-7xl text-[#DD4B24]" />
+                  <p className="text-primary-white mt-1 font-medium text-center">
+                    HTML
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* css  */}
+            <div className="w-full">
+              <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
+                <div>
+                  <BiLogoCss3 className="text-7xl text-[#2194F0]" />
+                  <p className="text-primary-white mt-1 font-medium text-center">
+                    CSS3
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* tailwind  */}
+            <div className="w-full">
+              <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
+                <div>
+                  <BiLogoTailwindCss className="text-7xl text-highlight" />
+                  <p className="text-primary-white mt-1 font-medium text-center">
+                    Tailwind
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* react js  */}
             <div className="w-full">
               <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
                 <div>
@@ -23,16 +65,20 @@ const Skills = () => (
                 </div>
               </div>
             </div>
+
+            {/* bootstrap  */}
             <div className="w-full">
               <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
                 <div>
-                  <TbBrandRedux className="text-7xl text-[#9364de]" />
+                  <FaBootstrap className="text-7xl text-[#9364de]" />
                   <p className="text-primary-white mt-1 font-medium text-center">
                     Redux
                   </p>
                 </div>
               </div>
             </div>
+
+            {/* node js  */}
             <div className="w-full">
               <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
                 <div>
@@ -43,6 +89,8 @@ const Skills = () => (
                 </div>
               </div>
             </div>
+
+            {/* express js  */}
             <div className="w-full">
               <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
                 <div>
@@ -53,6 +101,8 @@ const Skills = () => (
                 </div>
               </div>
             </div>
+
+            {/* mongodb  */}
             <div className="w-full">
               <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
                 <div>
@@ -63,6 +113,8 @@ const Skills = () => (
                 </div>
               </div>
             </div>
+
+            {/* javaScript  */}
             <div className="w-full">
               <div className="w-32 md:w-44 h-32 md:h-44 mx-auto border rounded-md overflow-hidden flex justify-center items-center">
                 <div>
@@ -84,7 +136,7 @@ const Skills = () => (
             <h1 className="text-3xl md:text-5xl font-semibold mt-3">
               What <span className="text-highlight">I can do</span>
             </h1>
-            <div className="max-h-[22.5rem] overflow-y-scroll mt-4 md:mt-8">
+            <div className="max-h-[32rem] overflow-y-scroll mt-4 md:mt-8">
               <p className=" text-lg leading-7 text-justify pr-2">
                 With my extensive expertise in React.js, Redux, Node.js,
                 Express.js, MongoDB, JavaScript, HTML5, and CSS3, I possess a
