@@ -72,7 +72,7 @@ const Skills = () => (
                 <div>
                   <FaBootstrap className="text-7xl text-[#9364de]" />
                   <p className="text-primary-white mt-1 font-medium text-center">
-                    Redux
+                    Bootstrap
                   </p>
                 </div>
               </div>

@@ -24,13 +24,13 @@ const HeroSection = () => {
             </h3>
 
             <p className="text-base font-normal mt-4 text-justify md:text-start md:mt-9">
-              As an experienced Frontend Developer with over 1.5 years of
-              hands-on experience in website creation, I have honed my skills to
-              deliver high-quality designs. I take great pride in my ability to
-              create visually appealing and intuitive websites that leave a
-              lasting impression on users. With a keen eye for design
-              aesthetics, I strive to craft engaging interfaces that enhance the
-              user experience.
+              As an experienced Frontend Developer with over 1 years of hands-on
+              experience in website creation, I have honed my skills to deliver
+              high-quality designs. I take great pride in my ability to create
+              visually appealing and intuitive websites that leave a lasting
+              impression on users. With a keen eye for design aesthetics, I
+              strive to craft engaging interfaces that enhance the user
+              experience.
             </p>
             <div className="mt-6 flex md:flex-row flex-col items-center">
               <div className="order-2">
@@ -83,8 +83,8 @@ const HeroSection = () => {
                   <button
                     onClick={() => setActive("home")}
                     className={`${
-                      active === "home" && "bg-[#6366F1]"
-                    } bg-gray-800 h-12 w-12 rounded-full  cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition  before-style`}
+                      active === "home" ? "bg-[#6366F1]" : "bg-gray-800"
+                    }  h-12 w-12 rounded-full  cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition  before-style`}
                   >
                     <AiFillHome />
                   </button>
@@ -95,8 +95,8 @@ const HeroSection = () => {
                   <button
                     onClick={() => setActive("skills")}
                     className={`${
-                      active === "skills" && "bg-[#6366F1]"
-                    } bg-gray-800 h-12 w-12 rounded-full cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition`}
+                      active === "skills" ? "bg-[#6366F1]" : "bg-gray-800"
+                    }  h-12 w-12 rounded-full cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition`}
                   >
                     <FaBrain />
                   </button>
@@ -108,8 +108,8 @@ const HeroSection = () => {
                   <button
                     onClick={() => setActive("projects")}
                     className={`${
-                      active === "projects" && "bg-[#6366F1] "
-                    } bg-gray-800 h-12 w-12 rounded-full cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition`}
+                      active === "projects" ? "bg-[#6366F1]" : "bg-gray-800"
+                    }  h-12 w-12 rounded-full cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition`}
                   >
                     <AiFillProject />
                   </button>
@@ -120,8 +120,8 @@ const HeroSection = () => {
                   <button
                     onClick={() => setActive("contact")}
                     className={`${
-                      active === "contact" && "bg-[#6366F1] "
-                    } bg-gray-800 h-12 w-12 rounded-full cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition `}
+                      active === "contact" ? "bg-[#6366F1]" : "bg-gray-800"
+                    }  h-12 w-12 rounded-full cursor-pointer flex justify-center items-center hover:bg-[#6366F1] transition `}
                   >
                     <RiContactsFill />
                   </button>

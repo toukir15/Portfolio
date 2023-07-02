@@ -4,7 +4,17 @@ const Projects = () => {
   const project = [
     {
       name: "CampSportz",
-      technology: ["React", "Tailwind"],
+      technology: [
+        "HTML",
+        "CSS3",
+        "Tailwind",
+        "Bootstrap",
+        "javaScript",
+        "React",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+      ],
       desiccation:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis accusamus, inventore repellat officiis pariatur vel cupiditate odio minus possimus sapiente, nesciunt illo quam numquam voluptate eveniet alias exercitationem nemo deleniti unde quis ex culpa. Est fugit perferendis praesentium minima ducimus exercitationem consectetur. Soluta, sequi. Velit labore aut vitae ipsam?",
       clint_site_link: "dskljfkldsjfjdsk",
@@ -14,7 +24,17 @@ const Projects = () => {
     },
     {
       name: "ToyCarWorld",
-      technology: ["React", "Tailwind", "Tailwind", "Tailwind"],
+      technology: [
+        "HTML",
+        "CSS3",
+        "Tailwind",
+        "Bootstrap",
+        "javaScript",
+        "React",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+      ],
       desiccation:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis accusamus, inventore repellat officiis pariatur vel cupiditate odio minus possimus sapiente, nesciunt illo quam numquam voluptate eveniet alias exercitationem nemo deleniti unde quis ex culpa. Est fugit perferendis praesentium minima ducimus exercitationem consectetur. Soluta, sequi. Velit labore aut vitae ipsam?",
       live_site_link: "https://toukir215.web.app/",
@@ -24,7 +44,17 @@ const Projects = () => {
     },
     {
       name: "Recipe Avenue",
-      technology: ["React", "Tailwind", "Tailwind", "Tailwind"],
+      technology: [
+        "HTML",
+        "CSS3",
+        "Tailwind",
+        "Bootstrap",
+        "javaScript",
+        "React",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+      ],
       desiccation:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis accusamus, inventore repellat officiis pariatur vel cupiditate odio minus possimus sapiente, nesciunt illo quam numquam voluptate eveniet alias exercitationem nemo deleniti unde quis ex culpa. Est fugit perferendis praesentium minima ducimus exercitationem consectetur. Soluta, sequi. Velit labore aut vitae ipsam?",
       live_site_link: " https://chef-project-251.web.app/",

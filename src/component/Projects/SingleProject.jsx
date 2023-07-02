@@ -1,4 +1,5 @@
 const SingleProject = ({ info, side }) => {
+  // console.log(side);
   const {
     name,
     technology,
@@ -29,10 +30,7 @@ const SingleProject = ({ info, side }) => {
       }`}
     >
       {/* project info */}
-      <div
-        className="md:w-1/2 order-2 md:order-1"
-        data-aos={`${sideChecker ? "fade-right " : "fade-left"}`}
-      >
+      <div className="md:w-1/2 order-2 md:order-1" data-aos="fade-up">
         <h2 className="text-2xl md:text-3xl font-semibold mt-4 md:mt-0">
           {name}
         </h2>
@@ -75,7 +73,7 @@ const SingleProject = ({ info, side }) => {
       {/* project img  */}
       <div
         className="md:w-1/2 flex justify-center items-center"
-        data-aos={`${!sideChecker ? "fade-right" : " fade-left"}`}
+        data-aos="fade-down"
       >
         <div className="max-w-[30rem] rounded-md overflow-hidden border">
           <img src={image_link} alt="project" />
